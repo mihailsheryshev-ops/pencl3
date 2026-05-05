@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side{
+    width: 200px;
+    height: 20px;
+    margin: 30px;
+}
+
+.list{
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.menu a{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: #666;
+}
+.menu__drop{
+    position: absolute;
+    width: 100%;
+    left: 101%;
+    top:-999px;
+    opacity: 0;
+}
+.list:hover .menu__drop{
+    opacity: 1;
+    top: 0;
+
+}
+
+
+
+.list1{
+    position: relative;
+    text-align: center;
+}
+.menu__drop1{
+    position: absolute;
+    width: 100%;
+    left: 101%;
+    top:-9999;
+    opacity: 0;
+}
+.list1:hover .menu__drop1{
+    opacity:1;
+    top: 0;
+}
